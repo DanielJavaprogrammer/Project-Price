@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root {
+    --color-one: #aca7a7;
+    --color-two: #a0e2e3;
+    --color-three: #4ba45f;
+    --color-four: #41b9b8;
+    --color-five: #bbdf3c;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/ade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.conteiner{
+    max-width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #fff;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 464px) {
+   .conteiner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .conteiner{
+    max-width: 315px;
+   }
+  }
+
+.conteiner2{
+    max-width: 800px;
+    min-width: 300px;
+    background-color: var(--color-four);
+    columns: 2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.div1{
+    padding: 30px;
+}
+h1{
+    color: var(--color-four);
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 10px;
+}
+
+.div1>h2{
+    color: var(--color-five);
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.div1>p{
+    color: var(--color-one);
+}
+
+.div2{
+    color: #fafafaa8;
+    font-weight: 100;
+    padding: 30px;
+}
+
+.div2>h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    
+}
+.div2>p{
+    color: #fafafaa8;
+    font-weight: 100;
+}
+span{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px 0px;
+    color: #ffffff;
+    background-color: var(--color-five);
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+button:hover{
+    padding: 12px 5px;
+    background-color: #bcdf3cb6;
+    transition: .5s;
+}
+.div3>h2{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.div3{
+    background-color: #58c3c5;
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+.div3>p{
+    color: #fafafaa8;
+    font-weight: 100;
+}
+
